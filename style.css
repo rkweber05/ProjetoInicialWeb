@@ -1,0 +1,99 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url(imagens/bg-3.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover; 
+}
+
+.header-nav {
+    margin-left: 83%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header-nav a {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: background-color .2s ease;
+}
+
+.header-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-title {
+    margin-top: 10%; 
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.header-p {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.div-main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.div-article {
+    padding: 5px;
+    margin: 30px;
+}
+
+.article-h1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.article-p {
+    font-size: 20px;
+}
+
+.div-btn {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.div-btn a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+    padding: 15px;
+}
